@@ -54,3 +54,5 @@ com
 
 ## Executable jar
 - https://github.com/kimjinheeee/20250319_2495-000001/tree/main/build/libs
+- ls build.libs
+- java -jar notification-front-server.jar
