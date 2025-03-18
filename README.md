@@ -26,7 +26,7 @@
 com
 └── example
     └── notification
-        ├── NotificationApplication.java   // 스프링 부트 애플리케이션 진입점
+        ├── NotificationApplication.java     // 스프링 부트 애플리케이션 진입점
         ├── client                           // 외부 알림 발송 API 연동 (Feign 클라이언트)
         ├── common                           // 공통 예외 및 응답 처리
         ├── config                           // 애플리케이션 설정 (Feign, 캐시, Swagger, 스케줄러, 비동기 등)
