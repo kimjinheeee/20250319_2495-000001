@@ -1,7 +1,6 @@
 package com.example.notification.common.exceptionHandler;
 
 import com.example.notification.common.response.ApiErrorResponse;
-import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindException;
@@ -12,11 +11,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class ApiExceptionHandler {
-
-    @ExceptionHandler(CallNotPermittedException.class)
-    public ResponseEntity<ApiErrorResponse> handleCallNotPermittedException() {
-        return ApiErrorResponse.toResponseEntity(HttpStatus.SERVICE_UNAVAILABLE, "server error.");
-    }
 
     @ExceptionHandler(IllegalStateException.class)
     public ResponseEntity<ApiErrorResponse> handleIllegalStateException(
