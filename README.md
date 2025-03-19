@@ -61,7 +61,6 @@ com
 - **빌드 결과물**
    - https://github.com/kimjinheeee/20250319_2495-000001/tree/main/build/libs
 - **실핼 방법**
-   - $ ls build.libs
    - $ java -jar notification-front-server.jar
  
 ## 결과 화면 - 알림 즉시 발송
