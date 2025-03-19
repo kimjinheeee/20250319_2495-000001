@@ -63,3 +63,16 @@ com
 - **실핼 방법**
    - $ ls build.libs
    - $ java -jar notification-front-server.jar
+ 
+## 결과 화면 - 알림 즉시 발송
+- **03/19 20:35**
+  <img width="909" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/89e760fa-080f-497a-a5a7-d343760e9ef9" />
+
+- **03/19 20:36, 03/19 20:37**
+  <img width="890" alt="Pasted Graphic 7" src="https://github.com/user-attachments/assets/ea751d47-3ea4-43ab-9a98-38246487a747" />
+
+- **03/19 20:38**
+  <img width="921" alt="image" src="https://github.com/user-attachments/assets/8d6d495b-9bad-4ddf-8f31-e995e7bd5bff" />
+
+
+
