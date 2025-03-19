@@ -19,7 +19,10 @@
 
 2. **알림 내역 조회 API**
    - 고객별 최근 3개월간 정상적으로 발송된 알림 내역 조회 (페이징 처리)
-   - 빠른 응답을 위해 캐싱(Caffeine) 적용
+   - 빠른 응답을 위해 캐싱(Caffeine) 적용하여 빠른 응답 제공
+     
+## 시스템 구조
+<img width="616" alt="image" src="https://github.com/user-attachments/assets/8fb46cfb-2c49-496f-b924-fedb17b19a9c" />
   
 ## 디렉토리 구조
 ```plaintext
@@ -50,9 +53,13 @@ com
 - OkHttp
 
 ## API 명세
-- http://localhost:8080/swagger-ui/index.html
+- **API의 전체 명세와 테스트 인터페이스를 제공합니다.**
+   - http://localhost:8080/swagger-ui/index.html
+
 
 ## Executable jar
-- https://github.com/kimjinheeee/20250319_2495-000001/tree/main/build/libs
-1. $ ls build.libs
-2. $ java -jar notification-front-server.jar
+- **빌드 결과물**
+   - https://github.com/kimjinheeee/20250319_2495-000001/tree/main/build/libs
+- **실핼 방법**
+   - $ ls build.libs
+   - $ java -jar notification-front-server.jar
