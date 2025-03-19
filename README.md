@@ -63,7 +63,7 @@ com
 - **실핼 방법**
    - $ java -jar notification-front-server.jar
  
-## 결과 화면 - 알림 즉시 발송
+## 결과 화면 - 알림 즉시(IMMEDIATE) 발송
 - **03/19 20:35**
   <img width="909" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/89e760fa-080f-497a-a5a7-d343760e9ef9" />
 
